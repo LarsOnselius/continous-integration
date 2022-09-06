@@ -31,7 +31,7 @@ jobs:
           npx remark  . --use remark-preset-lint-consistent --frail
 
       - name: Upload artifact
-        uses: actions/upload-artifat@main
+        uses: actions/upload-artifact@main
         with:
           name: remark-lint-report
           path: public/
